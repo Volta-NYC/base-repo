@@ -1,3 +1,4 @@
+// next.config.ts
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -5,8 +6,8 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-      //  hostname: "",
-      //  pathname: "",
+        hostname: "images.example.com",
+        pathname: "/**",
       },
     ],
   },
